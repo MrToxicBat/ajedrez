@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+}
+
+.padre{
+    display: grid;
+    height: 800px;
+    width: 800px;
+    justify-content:space-between;
+    grid-template-columns: 20px 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 20px;
+}
+
+.hijo{
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+}
+
+.cambio{
+    background-color: rgb(209, 205, 209);
+}
+
+.icono{
+    font-size: 50pt;
+    text-align: center;
+}
+
+.letras{
+    text-align: center ;
+}
+
+.numeros{
+    
+}
